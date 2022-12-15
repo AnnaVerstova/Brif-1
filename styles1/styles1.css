@@ -392,7 +392,8 @@
       padding-top: 105px;
       margin-bottom: 0;
       background-color: #f2f2f2;
-  
+      display: flex;
+      flex-direction: column;
   }
   
   .khan_container {
@@ -414,6 +415,7 @@
       line-height: 1.15;
       font-size: 60px;
       font-weight: bolder;
+      margin-bottom: 50px;
   
   }
   
@@ -421,6 +423,9 @@
       line-height: 34px;
       font-size: 24px;
       font-weight: normal;
+      width: 790px;
+      margin-bottom: 36px;
+
   
   }
   
@@ -428,6 +433,7 @@
       line-height: 1.15;
       font-size: 24px;
       font-weight: bolder;
+      margin-bottom: 10px;
   
   }
   
@@ -435,6 +441,7 @@
       line-height: 1.15;
       font-size: 24px;
       font-weight: normal;
+      margin-bottom: 68px;
   
   }
   
@@ -442,14 +449,25 @@
       line-height: 42px;
       font-size: 30px;
       font-weight: normal;
+      margin: 0;
+      padding: 0;
+      text-decoration: none;
+      color: #2f80ed;
   
   }
   
   .khan_book-container {
+    display: flex;
+    flex-direction: row;
   
   }
   
   .khan_book-pic {
+    width: 608px;
+    height: 620px;
+    margin: 0 48px 0 0;
+    object-position: top;
+    object-fit: cover;
   
   }
   
@@ -519,6 +537,33 @@
   
   }
   
+  .resources {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+  }
+
+  .resources_logo-zone {
+    margin-top: 80px;
+    margin-bottom: 217px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+
+  }
+
+  .resources__link {
+    width: 270px;
+    height: 38px;
+    border: 1px solid red;
+  }
+
+
   .footer {
       display: flex;
       flex-direction: row;
