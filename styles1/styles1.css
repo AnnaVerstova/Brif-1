@@ -266,6 +266,74 @@ h1 {
     bottom: 0;
 }
 
+.khan {
+    padding-top: 105px;
+    margin-bottom: 0;
+    background-color: #f2f2f2;
+
+}
+
+.khan_container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+
+}
+
+.khan_author {
+    line-height: 42px;
+    font-size: 30px;
+    font-weight: normal;
+
+ 
+}
+
+.khan_title { 
+    line-height: 1.15;
+    font-size: 60px;
+    font-weight: bolder;
+
+}
+
+.khan_quote {
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: normal;
+
+}
+
+.khan_quote-author {
+    line-height: 1.15;
+    font-size: 24px;
+    font-weight: bolder;
+
+}
+
+.khan_quote-author-subline {
+    line-height: 1.15;
+    font-size: 24px;
+    font-weight: normal;
+
+}
+
+.khan_feynman_link {
+    line-height: 42px;
+    font-size: 30px;
+    font-weight: normal;
+
+}
+
+.khan_book-container {
+
+}
+
+.khan_book-pic {
+
+}
+
+
+
+
 .kaufman {
     background-image: url(/Users/annaverstova/Downloads/ВЭБ/Проекты/06.12/images/kaufman-triangle.svg);
     background-size: 877px 877px;
